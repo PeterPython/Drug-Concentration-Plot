@@ -81,6 +81,10 @@ class Drug(object):
 
 
     def Plot(self):
+        """
+        Plots s chart showing the concentration of a drug over the course of treatment.
+        """
+
         hours = self.listHours()
         self.ConcKey()
         concentrations = self.concentrations=[]
